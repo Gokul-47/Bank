@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Banking - Stackly Bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <p class="mb-0">Calls from Stackly Bank beginning with 1600 are official and legitimate</p>
+    </div>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <i class="fas fa-university"></i> <span class="brand-text">Stackly</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="personal.html">Personal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="business.html">Business</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link phone-link" href="tel:18001080"><i class="fas fa-phone"></i> 1800 1080</a></li>
+                        <li class="nav-item"><a class="nav-link login-btn" href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="min-height: 400px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center" data-aos="fade-up">
+                    <h1 class="hero-title" style="font-size: 56px;">Personal Banking Solutions</h1>
+                    <p style="font-size: 24px; color: white; opacity: 0.9;">Banking made simple and secure for you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Savings Account Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Savings Account</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-piggy-bank"></i></div>
+                        <h4>Regular Savings</h4>
+                        <p>High interest rates up to 6.5% per annum with zero balance requirement</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Open Account</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-star"></i></div>
+                        <h4>Premium Savings</h4>
+                        <p>Exclusive benefits with priority banking and higher interest rates</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Open Account</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-child"></i></div>
+                        <h4>Kids Savings</h4>
+                        <p>Secure your child's future with our special savings account for minors</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Open Account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loans Section -->
+    <section class="py-5" style="background: #f8f9fa;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Personal Loans</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <i class="fas fa-home"></i>
+                        <h5>Home Loan</h5>
+                        <p>Interest rates starting from 8.25%</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <i class="fas fa-car"></i>
+                        <h5>Car Loan</h5>
+                        <p>Get your dream car with easy EMI options</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h5>Education Loan</h5>
+                        <p>Invest in your future with low interest</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <i class="fas fa-hand-holding-dollar"></i>
+                        <h5>Personal Loan</h5>
+                        <p>Quick approval with minimal documentation</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credit Cards Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Credit Cards</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <h4>Cashback Credit Card</h4>
+                        <p>Get up to 5% cashback on all purchases</p>
+                        <ul style="text-align: left; padding-left: 20px;">
+                            <li>No annual fee for first year</li>
+                            <li>Fuel surcharge waiver</li>
+                            <li>Complimentary lounge access</li>
+                        </ul>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <h4>Travel Credit Card</h4>
+                        <p>Earn reward points on every transaction</p>
+                        <ul style="text-align: left; padding-left: 20px;">
+                            <li>2X rewards on travel bookings</li>
+                            <li>Airport lounge access</li>
+                            <li>Travel insurance coverage</li>
+                        </ul>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <h4>Premium Credit Card</h4>
+                        <p>Exclusive privileges and benefits</p>
+                        <ul style="text-align: left; padding-left: 20px;">
+                            <li>Concierge services</li>
+                            <li>Golf privileges</li>
+                            <li>Dining benefits</li>
+                        </ul>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investments Section -->
+    <section class="py-5" style="background: #f8f9fa;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Investment Options</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Fixed Deposits</h4>
+                        <p>High interest rates up to 7.5% per annum with flexible tenure</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Invest Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-coins"></i></div>
+                        <h4>Mutual Funds</h4>
+                        <p>Invest in top-performing mutual funds with expert guidance</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Invest Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>Insurance</h4>
+                        <p>Comprehensive life and health insurance plans</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Banking Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Digital Banking</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3 style="font-size: 36px; margin-bottom: 20px;">Bank Anytime, Anywhere</h3>
+                    <ul style="font-size: 18px; line-height: 2;">
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Mobile Banking App</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Internet Banking</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> UPI Payments</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Instant Money Transfer</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Bill Payments & Recharge</li>
+                    </ul>
+                    <button class="btn-get-started mt-4" onclick="window.location.href='create-account.html'">Get Started</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <i class="fas fa-mobile-screen-button" style="font-size: 200px; color: var(--primary-color);"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Debit Cards Section -->
+    <section class="py-5" style="background: #f8f9fa;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Debit Cards</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h5>Classic Debit Card</h5>
+                        <p>Free withdrawals at all ATMs with zero charges</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-gem"></i>
+                        <h5>Platinum Debit Card</h5>
+                        <p>Enhanced security with contactless payments</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="fas fa-shield"></i>
+                        <h5>Contactless Card</h5>
+                        <p>Tap and pay with advanced security features</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wealth Management Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Wealth Management</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+                        <h4>Personal Financial Planning</h4>
+                        <p>Get expert advice on managing your finances and achieving your goals</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Book Consultation</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                        <h4>Portfolio Management</h4>
+                        <p>Professional management of your investment portfolio</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="py-5" style="background: #f8f9fa;" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Special Offers</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <div class="offer-badge">Limited Time</div>
+                        <h4>Zero Balance Account</h4>
+                        <p>Open a savings account with no minimum balance requirement</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Open Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <div class="offer-badge">Exclusive</div>
+                        <h4>Lower Interest Rates</h4>
+                        <p>Get special rates on home loans this month</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Apply Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="offer-card">
+                        <div class="offer-badge">New</div>
+                        <h4>Cashback Offers</h4>
+                        <p>Earn cashback on credit card spends</p>
+                        <button class="btn-apply" onclick="window.location.href='../404.html'">Get Card</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NRI Banking Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">NRI Banking Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <h4>NRI Accounts</h4>
+                        <p>Specialized banking solutions for Non-Resident Indians</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <h4>Money Transfer</h4>
+                        <p>Quick and secure international money transfers</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Transfer Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-landmark"></i></div>
+                        <h4>Investment Options</h4>
+                        <p>Invest in India with attractive returns</p>
+                        <button class="btn-primary" onclick="window.location.href='../404.html'">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Ready to Experience Better Banking?</h2>
+            <p>Join millions of happy customers</p>
+            <button class="btn-get-started" onclick="window.location.href='create-account.html'">Open Account Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>About Stackly</h5>
+                    <p>Your trusted banking partner for over 50 years</p>
+                    <div class="social-links">
+                        <a href="../404.html"><i class="fab fa-facebook"></i></a>
+                        <a href="../404.html"><i class="fab fa-twitter"></i></a>
+                        <a href="../404.html"><i class="fab fa-linkedin"></i></a>
+                        <a href="../404.html"><i class="fab fa-instagram"></i></a>
+                        <a href="../404.html"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="personal.html">Personal Banking</a></li>
+                        <li><a href="business.html">Business Banking</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Products</h5>
+                    <ul class="footer-links">
+                        <li><a href="../404.html">Savings Account</a></li>
+                        <li><a href="../404.html">Credit Cards</a></li>
+                        <li><a href="../404.html">Loans</a></li>
+                        <li><a href="../404.html">Investments</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> 1800 1080</li>
+                        <li><i class="fas fa-envelope"></i> support@stackly.com</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Stackly Bank. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
