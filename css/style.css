@@ -54,6 +54,11 @@ body {
     gap: 10px;
 }
 
+.logo {
+    max-height: 50px;
+    width: auto;
+}
+
 .brand-text {
     background: linear-gradient(to right, #fff, #FFE5B4);
     -webkit-background-clip: text;
