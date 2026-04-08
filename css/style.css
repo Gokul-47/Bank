@@ -586,6 +586,7 @@ body {
     line-height: 40px;
     margin-right: 10px;
     transition: all 0.3s;
+    margin-bottom: 20px;
 }
 
 .social-links a:hover {
